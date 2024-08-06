@@ -14,19 +14,14 @@ The dataset for the Travel Agency Database Management System (DBMS) typically in
  Category:
  
 Cat_id: Unique identifier for each category.
-
 Cat_name: Name of the travel category (e.g., Family Tours, Religious Tours).
 
  Contactus:
  
 contactid: Unique identifier for each contact submission.
-
 Name: Name of the person making the contact.
-
 Phno: Phone number of the person making the contact.
-
 Email: Email address of the person making the contact.
-
 Message: Message or inquiry submitted by the person.
 
 Enquiry:
