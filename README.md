@@ -9,17 +9,23 @@ The objective of developing a Travel Agency Database Management System (DBMS) is
 •	Streamlined Operations: The system should streamline various operational tasks such as package management, inquiry handling, booking management, and communication with customers.
 
 1.4	Dataset Description
+
 The dataset for the Travel Agency Database Management System (DBMS) typically includes various tables representing different entities and their attributes. Here's a brief description of the dataset based on the provided schema:
  Category:
+ 
 Cat_id: Unique identifier for each category.
 Cat_name: Name of the travel category (e.g., Family Tours, Religious Tours).
+
  Contactus:
+ 
 contactid: Unique identifier for each contact submission.
 Name: Name of the person making the contact.
 Phno: Phone number of the person making the contact.
 Email: Email address of the person making the contact.
 Message: Message or inquiry submitted by the person.
+
 Enquiry:
+
 Enquiryid: Unique identifier for each inquiry.
 Packageid: Identifier of the package related to the inquiry.
  Name: Name of the person making the inquiry.
@@ -31,7 +37,9 @@ Child: Number of children included in the inquiry.
 Adults: Number of adults included in the inquiry.
 Message: Additional message or details provided with the inquiry.
 Statusfield: Status of the inquiry (e.g., pending, confirmed).
+
 Package:
+
 Packid: Unique identifier for each package.
 Packname: Name of the travel package.
 Category: Identifier of the category to which the package belongs.
@@ -39,13 +47,17 @@ Subcategory: Identifier of the subcategory to which the package belongs.
 Packprice: Price of the travel package.
 Pic1, Pic2, Pic3: URLs or file paths of images associated with the package.
 Detail: Detailed description or information about the package.
+
  Subcategory:
+ 
 Subcatid: Unique identifier for each subcategory.
 Subcatname: Name of the subcategory.
 Catid: Identifier of the category to which the subcategory belongs.
 Pic: URL or file path of the image associated with the subcategory.
 Detail: Detailed description or information about the subcategory.
+
 Users:
+
 Username: Username of the user.
 Pwd: Password of the user.
 Typeofuser: Type or role of the user (e.g., admin, customer)
