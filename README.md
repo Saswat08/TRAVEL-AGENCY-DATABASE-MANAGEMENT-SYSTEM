@@ -1,5 +1,5 @@
 # TRAVEL-AGENCY-DATABASE-MANAGEMENT-SYSTEM
-1.2	Problem statement
+Problem statement
 
 A travel agency wants to develop a database management system to streamline its operations. The agency offers various travel packages to its customers across different categories and subcategories. Customers can inquire about packages, make bookings, and leave feedback.
 1.3	Objective
@@ -8,8 +8,8 @@ The objective of developing a Travel Agency Database Management System (DBMS) is
 •	Improved Customer Experience: By providing an intuitive user interface for browsing packages, making inquiries, and leaving feedback, the DBMS aims to enhance the overall experience for customers, leading to higher satisfaction and increased loyalty.
 •	Streamlined Operations: The system should streamline various operational tasks such as package management, inquiry handling, booking management, and communication with customers.
 
-1.4	Dataset Description
-
+Dataset Description
+	
 The dataset for the Travel Agency Database Management System (DBMS) typically includes various tables representing different entities and their attributes. Here's a brief description of the dataset based on the provided schema:
  Category:
  
